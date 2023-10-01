@@ -1,0 +1,26 @@
+START
+|
+|--- Initialize num = 1
+|
+|--- WHILE num <= 60
+:
+|       |
+|       |--- IF num is divisible by 3 AND num is divisible by 5:
+|       |       |
+|       |       |--- PRINT "FizzBuzz"
+|       |
+|       |--- ELSE IF num is divisible by 3:
+|       |       |
+|       |       |--- PRINT "Fizz"
+|       |
+|       |--- ELSE IF num is divisible by 5:
+|       |       |
+|       |       |--- PRINT "Buzz"
+|       |
+|       |--- ELSE:
+|       |       |
+|       |       |--- PRINT num
+|       |
+|       |--- Increment num by 1
+|
+END
