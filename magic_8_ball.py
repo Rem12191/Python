@@ -20,9 +20,15 @@ def magic_8_ball():
 # Main program loop
 while True:
     magic_8_ball()
-    another_question = input("Ask another question? (yes/no): ")
-    if another_question.lower() != "yes":
-       break
-
     
+    while True:
+        another_question = input("Ask another question? (yes/no): ").lower()
+        if another_question in ["yes", "no"]:
+            break
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
+
+    if another_question == "no":
+        break
+
 print("Goodbye! Thank you for using the Magic 8 Ball.")
