@@ -1,5 +1,5 @@
 # Fizz Buzz program
-for num in range(1, 61):
+for num in range(1, 101):
     # Check if the number is divisible by both 3 and 5 first
     if num % 3 == 0 and num % 5 == 0:
         print("FizzBuzz")
